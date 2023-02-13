@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86d4c52489.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div> 
+        <h1>Jennifer Perkins</h1>
+
+        <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="Lo sentimos. La imagen no pudo cargar correctamente." height="200px" width="200px">
+
+        <p id="idioma"> <i class="fa-solid fa-language"></i> Idiomas</p>
+        <p>Inglés:</p>
+        <progress value="99" max="100"></progress>
+        <p>Español:</p>
+        <progress value="70" max="100"></progress>
+        <p>Francés:</p>
+        <progress value="50" max="100"></progress>
+
+        <button type="button" onclick="document.getElementById('demo.uno').style.display='block'"> Datos Personales:</button>
+        <ul id="demo.uno" style="display:none">
+            <i class="fa-solid fa-user"></i>
+            <li>Documento: 12.345.678</li>
+            <li>Fecha de Nacimiento: 1/11/1989</li>
+            <li>Edad: 34</li>
+            <button type="button" onclick="document.getElementById('demo.uno').style.display='none'"> Ocultar Datos Personales</button>
+        </ul>
+
+
+        <button type="button" onclick="document.getElementById('demo.dos').style.display='block'">Contacto:</button>
+        <ul id="demo.dos" style="display:none">
+            <i class="fa-solid fa-phone"></i>
+            <li>Telefóno: (832) 939-3300</li>
+            <li>Email: jennifer.perkins@ejemplo.com</li>
+            <li>Dirección: 1518 Preston Rd</li>
+            <li>Localidad: Texas, EE. UU.</li>
+            <button type="button" onclick="document.getElementById('demo.dos').style.display='none'"> Ocultar Contacto</button>
+        </ul> 
+    </div>
+
+    <div class="info">
+        <h2><i class="fa-solid fa-briefcase"></i> Experiencia laboral:</h2>
+        <li>*Nombre de la Compañia*</li>
+        <h4>2015-Presente</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquam vel tortor non pharetra. Phasellus mauris odio, vulputate sit amet velit id, maximus aliquet augue. Donec ac nibh eu justo rutrum ullamcorper ut ut nunc. Suspendisse et eros eget erat porta consectetur. Praesent diam eros, tincidunt vitae enim placerat, cursus gravida nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <li>*Nombre de la Compañia 2* </li>
+        <h4> 2010-2015</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquam vel tortor non pharetra. Phasellus mauris odio, vulputate sit amet velit id, maximus aliquet augue. Donec ac nibh eu justo rutrum ullamcorper ut ut nunc. Suspendisse et eros eget erat porta consectetur. Praesent diam eros, tincidunt vitae enim placerat, cursus gravida nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <li>*Nombre de la Compañia 3*</li>
+        <h4> 2010-2008</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquam vel tortor non pharetra. Phasellus mauris odio, vulputate sit amet velit id, maximus aliquet augue. Donec ac nibh eu justo rutrum ullamcorper ut ut nunc. Suspendisse et eros eget erat porta consectetur. Praesent diam eros, tincidunt vitae enim placerat, cursus gravida nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+        <hr>
+        <h2><i class="fa-solid fa-graduation-cap"></i> Estudios:</h2>
+        <li>*Nombre de la Escuela*</li>
+        <h4>2002-2007</h4>
+        <p>"Titulo obtenido": Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <li>*Nombre de la Escuela*</li>
+        <h4>2008-2013</h4>
+        <p>"Titulo obtenido": Praesent aliquam vel tortor non pharetra.</p>
+
+        <hr>
+        <h2><i class="fa-solid fa-chalkboard-user"></i> Cursos:</h2>
+        <li>* Nombre del Curso*</li>
+        <h4>2013-2015</h4>
+        <p>"Titulo obtenido": Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <hr>
+        <h2><i class="fa-solid fa-brain"></i> Habilidades:</h2>
+        <ul>
+            <li>Diseño Grafico.</li>
+            <li>Diseño de UI/ UX.</li>
+            <li>Desarrolo web.</li>
+            <li>Gestion de proyectos.</li>
+            <li>Investigacion de mercado.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
